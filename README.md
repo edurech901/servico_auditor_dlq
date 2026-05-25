@@ -1,0 +1,1 @@
+A escolha da utilização da arquitetura hexagonal veio para aproveitar a sequencia de aulas e atividades feitas utilizando essa arquitetura. Além disso eu tenho interesse em aprender uma arquitetura prática e funcional e o baixo acoplamento entre as camadas e a organização de pastas e arquivos me interessou
