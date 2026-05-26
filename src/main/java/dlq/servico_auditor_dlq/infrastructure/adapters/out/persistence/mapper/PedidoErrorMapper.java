@@ -1,5 +1,7 @@
 package dlq.servico_auditor_dlq.infrastructure.adapters.out.persistence.mapper;
 
+import java.time.Instant;
+
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -21,7 +23,7 @@ public class PedidoErrorMapper {
 
     entity.setQueueName(BO.getOrigin());
 
-    entity.setTimestamp(BO.getOccurredAt().toString());
+    entity.setTimestamp(Instant.now().toString());
 
     entity.setStatus("PENDING_ANALYSIS");
 
